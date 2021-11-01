@@ -1,0 +1,350 @@
+/*  ===========
+
+COLOR CLASSES
+
+============  */
+
+.white-letter {
+  color: white;
+}
+.white-back {
+  background-color: white;
+}
+.black-letter {
+  color: black;
+}
+.black-back {
+  background-color: black;
+}
+.grey-text {
+  color: #494949;
+}
+.text_gray {
+  color: #7b7b7b;
+}
+.text_gray_2 {
+  color: #7e7e7e;
+}
+.text_gray_3 {
+  color: #909090;
+}
+.text_gray_4 {
+  color: #8b8b8b;
+}
+.text_gray_5 {
+  color: #a7a7a7;
+}
+.text_gray_6 {
+  color: #8d8d8d;
+}
+.text-crimson {
+  color: crimson;
+}
+.opac_70 {
+  opacity: 0.7;
+}
+
+
+/*  ===========
+
+FLEX CLASSES
+
+============  */
+
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.dir-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-baseline {
+  align-items: baseline;
+}
+.align-center {
+  align-items: center;
+}
+.fb-25 {
+  flex-basis: 25%;
+}
+.fb-33 {
+  flex-basis: 33%;
+}
+.fb-50 {
+  flex-basis: 50%;
+}
+.fb-66 {
+  flex-basis: 66%;
+}
+.fb-75 {
+  flex-basis: 75%;
+}
+
+@include screen-width("tablet") {
+  .fd-m-column {
+    flex-direction: column;
+  }
+  .fb-m-25 {
+    flex-basis: 25%;
+  }
+  .fb-m-75 {
+    flex-basis: 75%;
+  }
+  .fb-m-100 {
+    flex-basis: 100%;
+  }
+}
+
+
+/*  ===========
+
+LAYOUT CLASSES
+
+============  */
+
+.over-hidden {
+  overflow: hidden;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.index-z {
+  z-index: 1;
+}
+.full-width,
+.width-100,
+.full-scr {
+  max-width: 100%;
+  width: 100%;
+}
+.half-width,
+.width-50 {
+  width: 50%;
+}
+.width-33 {
+  width: 33%;
+}
+.auto-height {
+  height: auto;
+}
+.display-none,
+.hidden,
+.block-mobile,
+.inline-mobile,
+.flex-mobile {
+  display: none;
+}
+.inline-block {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.display-grid {
+  display: grid;
+}
+
+@include screen-width("tablet") {
+  .display-none-mob,
+  .desktop,
+  .hide-on-mobile {
+    display: none;
+  }
+  .inline-mobile {
+    display: inline-block;
+  }
+  .block-mobile {
+    display: block;
+  }
+  .flex-mobile {
+    display: flex;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+
+
+/*  ===========
+
+TYPOGRAPHY CLASSES
+
+============  */
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-initial {
+  text-transform: initial;
+}
+.none-bullet {
+  list-style-type: none;
+}
+.fs-8 {
+  font-size: 8px;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-70 {
+  font-size: 70px;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-bolder {
+  font-weight: bolder;
+}
+.lh-normal {
+  line-height: normal;
+}
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+
+/*  ===========
+
+WHITE SPACE CLASSES
+
+============  */
+
+.margin-auto {
+  margin: 0 auto;
+}
+.m-1-5 {
+  margin: 1.5rem;
+}
+.my-100 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.mr-0 {
+  margin-right: 0;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-30 {
+  margin-right: 50;
+}
+.mr-m60 {
+  margin-right: -60px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-70 {
+  margin-bottom: 30px;
+}
+.bottom-space {
+  margin-bottom: 50px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.left-m {
+  margin-left: 10%;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.p-2 {
+  padding: 2rem;
+}
+.py-70 {
+  padding-top: 70px;
+}
+.pl-0 {
+  padding-left: 0 !important;
+}
+.pl-55 {
+  padding-left: 55px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}

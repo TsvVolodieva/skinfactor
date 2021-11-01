@@ -1,0 +1,83 @@
+<div class="wrapper">
+    <img class="woman" src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_3.svg?v=1635233796" alt="">
+    <div class="image-wrapper">
+        <img class="image" src="{{ section.settings.image | img_url: '1035x379' }}" alt="">
+        <div class="title">{{ section.settings.heading }}</div>
+    </div>
+    <div class="columns">
+        <div class="column1">
+            <div class="title">{{ section.settings.title1 }}</div>
+            <div class="text">{{ section.settings.paragraph1 }}</div>
+        </div>
+        <div class="column2">
+            <div class="title">{{ section.settings.title2 }}</div>
+            <div class="text">{{ section.settings.paragraph2 }}</div>
+        </div>
+    </div>
+    <div class="icons">
+        <div class="icons1">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_4.svg?v=1635233796" alt="">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_5.svg?v=1635233796" alt="">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_6.svg?v=1635233796" alt="">
+        </div>
+        <div class="icons2">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_7.svg?v=1635233796" alt="">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_8.svg?v=1635233796" alt="">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_9.svg?v=1635233796" alt="">
+        </div>
+    </div>
+    <div class="logos">
+        <div class="line"> </div>
+        <div class="logo1">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/954aqua_1.png?v=1635246970" alt="">
+        </div>
+        <div class="logo2">
+            <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/954aqua_2.png?v=1635246970" alt="">
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Brands",
+      "class":"brands-info-section",
+      "settings": [
+        {
+          "id": "heading",
+          "type": "richtext",
+          "label": "Header"
+        },
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image"
+        },
+        {
+            "id": "title1",
+            "type": "text",
+            "label": "Column 1 Title"
+        },
+        {
+          "id": "paragraph1",
+          "type": "richtext",
+          "label": "Column 1 Text"
+        },
+        {
+            "id": "title2",
+            "type": "text",
+            "label": "Column 2 Title"
+        },
+        {
+          "id": "paragraph2",
+          "type": "richtext",
+          "label": "Column 2 Text"
+        }
+      ],
+      "presets": [
+        {
+          "category": "Brands",
+          "name": "Brands"
+        }
+      ]
+    }
+{% endschema %}

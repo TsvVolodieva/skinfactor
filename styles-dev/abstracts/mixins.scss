@@ -1,0 +1,63 @@
+//MEDIA QUERIES
+$widths: (
+  'smallest': ( max-width: 400px ),
+  'phone': ( max-width: 550px ),
+  'tablet': ( max-width: 768px),
+  'laptop': ( max-width: 1024px),
+  'desktop': ( max-width: 1200px)
+) !default;
+
+@mixin screen-width($width) {
+  @if map-has-key($widths, $width) {
+    @media #{inspect(map-get($widths, $width))} {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$width}`. "
+      + "Available widths are: #{map-keys($widths)}.";
+  }
+}
+
+// use with @include
+@mixin flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin align-center {
+  display: flex;
+  align-items: center;
+}
+@mixin container{
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0; 
+}
+@mixin position-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+// use with @extend
+%flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%pseudo-elements {
+  display: block;
+  content: '';
+}
+%pseudo-box {
+  @extend %pseudo-elements;
+  position: absolute;
+  top: 0; left: 0;
+}

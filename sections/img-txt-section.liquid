@@ -1,0 +1,42 @@
+<div class="wrapper">
+  <div class="image-column">
+      <img class="rectangle" src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Rectangle_3.svg?v=1635170437" alt="">
+      <img class="leaves" src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_2.svg?v=1635170437" alt="">
+      <img class="woman" src="{{ section.settings.image | img_url: '500x500' }}" alt="">
+  </div>
+  <div class="text-column">
+    <div class="title">{{ section.settings.heading }}</div>
+    <div class="text">{{ section.settings.paragraph }}</div>
+  </div>
+</div>
+  
+  
+{% schema %}
+    {
+      "name": "Image and text",
+      "class":"image-text-section",
+      "settings": [
+        {
+          "id": "heading",
+          "type": "richtext",
+          "label": "Header"
+        },
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image"
+        },
+        {
+          "id": "paragraph",
+          "type": "richtext",
+          "label": "Text"
+        }
+      ],
+      "presets": [
+        {
+          "category": "Image & Text",
+          "name": "Image and text"
+        }
+      ]
+    }
+{% endschema %}

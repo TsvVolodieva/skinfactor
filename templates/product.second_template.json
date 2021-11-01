@@ -1,0 +1,179 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product2",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "description",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16357546443c2e9d15": {
+      "type": "product-details",
+      "blocks": {
+        "37ce5a7e-a97b-465f-95a0-65d013fdf51d": {
+          "type": "text",
+          "settings": {
+            "heading_block": "<p>About the <\/p><p>device<\/p>",
+            "text_block": "<p>Enhanced with Eyeliss, this lightweight cream revitalizes the delicate skin around the eyes with a boost of antioxidants, making it look smoother and tighter.<\/p>",
+            "show_arrow": false
+          }
+        },
+        "092aaba9-6543-4bd9-a415-d32dbc5f09ea": {
+          "type": "text",
+          "settings": {
+            "heading_block": "<p>Bundle <\/p><p>Benefits <\/p>",
+            "text_block": "<p>Packed with a proprietary blend of plant extracts and peptides<\/p>",
+            "show_arrow": true
+          }
+        },
+        "4fb3793c-f7e1-47ce-a3dc-da1445cb46f8": {
+          "type": "text",
+          "settings": {
+            "heading_block": "",
+            "text_block": "",
+            "show_arrow": false
+          }
+        },
+        "2e50b3b3-6520-4a47-afbe-6fd1e2183387": {
+          "type": "text",
+          "settings": {
+            "heading_block": "<p>Ingredients<\/p>",
+            "text_block": "<p>|  Palmitoyl Tetrapeptide-7   |  Dipeptide-2<\/p>",
+            "show_arrow": false
+          }
+        },
+        "dc6c5f6c-6a15-47c4-98ea-c5e90addba89": {
+          "type": "icon_text",
+          "settings": {
+            "text_block2": "<p>Clinically Tested<\/p>",
+            "icon_select": "1"
+          }
+        },
+        "0e975988-8c20-4b44-970f-565e5dcd784c": {
+          "type": "icon_text",
+          "settings": {
+            "text_block2": "<p>Dermatologist Tested<\/p>",
+            "icon_select": "2"
+          }
+        },
+        "09c03648-ab21-49fd-975e-f90144ec40ca": {
+          "type": "icon_text",
+          "settings": {
+            "text_block2": "<p>Cruelty Free<\/p>",
+            "icon_select": "3"
+          }
+        },
+        "e54ae267-4281-46cb-bef0-5d45eb4c8dc9": {
+          "type": "icon_text",
+          "settings": {
+            "text_block2": "<p>Non-Surgical Solution<\/p>",
+            "icon_select": "4"
+          }
+        }
+      },
+      "block_order": [
+        "37ce5a7e-a97b-465f-95a0-65d013fdf51d",
+        "092aaba9-6543-4bd9-a415-d32dbc5f09ea",
+        "4fb3793c-f7e1-47ce-a3dc-da1445cb46f8",
+        "2e50b3b3-6520-4a47-afbe-6fd1e2183387",
+        "dc6c5f6c-6a15-47c4-98ea-c5e90addba89",
+        "0e975988-8c20-4b44-970f-565e5dcd784c",
+        "09c03648-ab21-49fd-975e-f90144ec40ca",
+        "e54ae267-4281-46cb-bef0-5d45eb4c8dc9"
+      ],
+      "settings": {
+        "heading": "<p>More<\/p><p>Details<\/p>"
+      }
+    },
+    "163575465270c15457": {
+      "type": "product-variants",
+      "blocks": {
+        "257b997f-1b59-474d-8bc1-24afded6a2c5": {
+          "type": "text",
+          "settings": {
+            "heading3": "<p>Includes<\/p>",
+            "heading_variant": "<p>the Puffiness No-More<\/p><p>Gold Era 24K Eye Serum<\/p>",
+            "description_variant": "<p>Gently tap and apply the puffiness no-more with your ring finger. Avoid any facial expressions for the next 1-2 minutes​. To complete the treatment, apply the eye serum on top.<\/p>"
+          }
+        },
+        "f677f708-8642-4714-880b-9a43c766fbe8": {
+          "type": "text",
+          "settings": {
+            "heading3": "<p>Includes<\/p>",
+            "heading_variant": "<p>the Puffiness No-More<\/p><p>Gold Era 24K Eye Serum<\/p><p>Gold Era 24K Eye Cream<br\/><\/p>",
+            "description_variant": "<p>Gently tap and apply the puffiness no-more with your ring finger. Avoid any facial expressions for the next 1-2 minutes​. To complete the treatment, apply the eye serum on top. Use eye cream every morning.<\/p>"
+          }
+        },
+        "a04c9777-9485-4de8-9e68-1778725c1233": {
+          "type": "text",
+          "settings": {
+            "heading3": "<p>Includes<\/p>",
+            "heading_variant": "<p>the Puffiness No-More<\/p><p>Gold Era 24K Eye Serum<\/p><p>Gold Era 24K Eye Cream<\/p><p>HydraPower Wrinkle Filler<\/p>",
+            "description_variant": "<p>Gently tap and apply the puffiness with your ring finger. Avoid any facial expressions for the next 1-2 minutes​. To complete the treatment, apply the eye serum on top. Use eye cream every morning. To visibly reduce expression lines, apply the wrinkle filler directly onto areas of concern and massage gently in upward motion.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "257b997f-1b59-474d-8bc1-24afded6a2c5",
+        "f677f708-8642-4714-880b-9a43c766fbe8",
+        "a04c9777-9485-4de8-9e68-1778725c1233"
+      ],
+      "settings": {
+        "heading": "Video",
+        "cover_image": "shopify:\/\/shop_images\/Video.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "1635754662b389100d": {
+      "type": "product-images",
+      "settings": {
+        "heading": "<p>Before<\/p><p>After<\/p>",
+        "image1": "shopify:\/\/shop_images\/123456789_1.png",
+        "image2": "shopify:\/\/shop_images\/shutterstock_385231882_1.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "16357546443c2e9d15",
+    "163575465270c15457",
+    "1635754662b389100d"
+  ]
+}

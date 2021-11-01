@@ -1,0 +1,64 @@
+<div class="wrapper">
+    <div class="dark-grey-section">
+        <div class="title">{{ section.settings.heading }}</div>
+        <div class="image">
+            <img src="{{ section.settings.image | img_url: '250x700' }}" alt="">
+        </div>
+        <div class="light-grey-section">
+            <div class="quote-wrapper">
+                <img class="quotes1" src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/1f49151004c207fcd82c8bfdbdffddf1.svg?v=1635257115" alt="">
+                <div class="splide" id="slider-quotes">
+                  <div class="splide__track">
+                    <div class="splide__list">
+                      {% for block in section.blocks %}
+                        <div class="splide__slide quote">{{ block.settings.quote }}</div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+                <img class="quotes2" src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/1.svg?v=1635257115" alt="">
+            </div>
+        </div>
+        <div class="woman-face">
+          <img src="https://cdn.shopify.com/s/files/1/0549/7906/7956/files/Frame_10.svg?v=1635250667" alt="">
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Testimonials",
+      "class":"testimonials-section",
+      "settings": [
+        {
+          "id": "heading",
+          "type": "richtext",
+          "label": "Header"
+        },
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image"
+        }
+      ],
+      "blocks": [
+      {
+        "type": "Text",
+        "name": "Quotes",
+        "settings": [
+          {
+            "id": "quote",
+            "type": "richtext",
+            "label": "Text"
+          } 
+        ]
+      }
+      ],
+      "presets": [
+        {
+          "category": "Testimonials",
+          "name": "Testimonials"
+        }
+      ]
+    }
+{% endschema %}

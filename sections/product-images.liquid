@@ -1,0 +1,41 @@
+<div class="wrapper relative">
+    <img class="image" src="{{section.settings.image1 | img_url: '1024x'}}" alt="">
+    <div class="title">{{section.settings.heading}}</div>
+    <div class="helper">
+    <div class="image-decoration relative">
+        <img src="{{section.settings.image2 | img_url: '1024x'}}" alt="">
+    </div>
+    </div>
+   
+</div>
+
+{% schema %}
+{
+  "name": "Product images",
+  "tag": "section",
+  "class": "product-images",
+  "settings": [ 
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "t:sections.video.settings.heading.label"
+    },
+    { 
+      "type": "image_picker",
+      "id": "image1", 
+      "label": "t:sections.video.settings.cover_image.label"
+    },
+    { 
+        "type": "image_picker", 
+        "id": "image2", 
+        "label": "t:sections.video.settings.cover_image.label"
+      }
+  ],
+  "presets": [
+    {
+      "name": "Product images",
+      "category":"Product"
+    }
+  ]
+}
+  {% endschema %}
